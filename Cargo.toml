@@ -1,0 +1,11 @@
+[package]
+name = "adjacent_enum_postcard"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde-json-core = "0.5"
+postcard = "1"
+serde = { version = "1", default-features = false }
